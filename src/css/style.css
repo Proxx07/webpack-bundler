@@ -1,0 +1,19 @@
+@import url("global.css");
+@import url("normalize.css");
+@import url("slider.css");
+
+.background {
+  height: 180px;
+  background-image: url("../img/body_background.png");
+}
+.site-wrapper {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  flex-grow: 1;
+  display: grid;
+  grid-template-columns: minmax(300px, 300px) auto;
+}
